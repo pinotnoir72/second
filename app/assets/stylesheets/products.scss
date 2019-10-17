@@ -1,0 +1,64 @@
+// Place all the styles related to the products controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+
+
+td {
+  padding-right:30px;    
+}
+
+th {
+  font-size:1em;
+  color:blue;
+}
+
+.panel-body {
+  color: black;
+  min-height:67px;
+  font-family:arial;
+}
+
+.add {
+  font-size: 1.5em;
+  margin-bottom:20px;
+  }
+
+.panel-body p {
+  font-style:bold;
+  font-size: 1em;
+}
+
+#links {
+  font-size:1em;
+  word-spacing: 30px;
+}
+
+
+//=============================
+//products index page styling
+//============================
+
+.main-heading h1 {
+  font-size:5em;
+}
+  
+
+//=============================
+//products helper page styling
+//============================
+
+.panel-heading {
+  background-color: orange!important
+  
+}
+
+.view {
+  font-size:5em;
+}
+
+.img-responsive {
+   width: 100%;
+    height: auto;
+}

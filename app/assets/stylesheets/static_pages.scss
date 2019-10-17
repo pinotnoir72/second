@@ -1,0 +1,34 @@
+// Place all the styles related to the static_pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+h1 {
+  font-size:2em;
+  text-align:center;
+  font-family:Ariel;
+  color:red;
+}
+
+h2,h3 {
+  color:blue;
+}
+
+
+.carousel-caption {
+  margin-bottom: 3%;
+}
+
+.btn btn-default {
+  color:blue;
+}
+
+iv.c-wrapper { width:80%; 
+margin: auto; 
+} 
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img { width: 60%; 
+margin: auto; 
+}
+
+
+
