@@ -103,5 +103,5 @@ Rails.application.configure do
     
  # ActionCable setup for Heroku
   config.web_socket_server_url = "wss://polar-bastion-06126.herokuapp.com//cable"
-  config.action_cable.allowed_request_origins = ['https://polar-bastion-06126.herokuapp.com/', 'http://polar-bastion-06126.herokuapp.com/']
+  config.action_cable.allowed_request_origins = ['https://polar-bastion-06126.herokuapp.com','http://polar-bastion-06126.herokuapp.com']
 end
