@@ -98,7 +98,7 @@ Rails.application.configure do
     }
 
   #Heroku fix for asset pipeline
-    config.assets.compile = true
+    config.assets.compile = false
     config.assets.digest = true
     
  # ActionCable setup for Heroku
