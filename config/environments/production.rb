@@ -86,6 +86,9 @@ Rails.application.configure do
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
   
+  #Heroku Css Fix( from Nellie)
+  Sass::Plugin.options[:never_update] = true
+  
   #use dalli
  config.cache_store = :dalli_store,
     (ENV["MEMCACHIER_SERVERS"] || "").split(","),
