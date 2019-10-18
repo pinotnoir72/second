@@ -1,0 +1,324 @@
+/* line 1, app/assets/stylesheets/jquery.raty.scss */
+.cancel-on-png, .cancel-off-png, .star-on-png, .star-off-png, .star-half-png {
+  font-size: 2em;
+}
+
+@font-face {
+  font-family: "raty";
+  font-style: normal;
+  font-weight: normal;
+  src: url("fonts/raty.eot");
+  src: url("fonts/raty.eot?#iefix") format("embedded-opentype");
+  src: url("fonts/raty.svg#raty") format("svg");
+  src: url("fonts/raty.ttf") format("truetype");
+  src: url("fonts/raty.woff") format("woff");
+}
+
+/* line 16, app/assets/stylesheets/jquery.raty.scss */
+.cancel-on-png, .cancel-off-png, .star-on-png, .star-off-png, .star-half-png {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: "raty";
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}
+
+/* line 28, app/assets/stylesheets/jquery.raty.scss */
+.cancel-on-png:before {
+  content: "\e600";
+}
+
+/* line 32, app/assets/stylesheets/jquery.raty.scss */
+.cancel-off-png:before {
+  content: "\e601";
+}
+
+/* line 36, app/assets/stylesheets/jquery.raty.scss */
+.star-on-png:before {
+  content: "\f005";
+}
+
+/* line 40, app/assets/stylesheets/jquery.raty.scss */
+.star-off-png:before {
+  content: "\f006";
+}
+
+/* line 44, app/assets/stylesheets/jquery.raty.scss */
+.star-half-png:before {
+  content: "\f123";
+}
+/* line 1, app/assets/stylesheets/new.scss */
+.form-control {
+  width: 50%;
+}
+
+/* line 6, app/assets/stylesheets/new.scss */
+.field form-group {
+  width: 25%;
+}
+/* line 8, app/assets/stylesheets/products.scss */
+td {
+  padding-right: 30px;
+}
+
+/* line 12, app/assets/stylesheets/products.scss */
+th {
+  font-size: 1em;
+  color: blue;
+}
+
+/* line 17, app/assets/stylesheets/products.scss */
+.panel-body {
+  color: black;
+  min-height: 67px;
+  font-family: arial;
+}
+
+/* line 23, app/assets/stylesheets/products.scss */
+.add {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+}
+
+/* line 28, app/assets/stylesheets/products.scss */
+.panel-body p {
+  font-style: bold;
+  font-size: 1em;
+}
+
+/* line 33, app/assets/stylesheets/products.scss */
+#links {
+  font-size: 1em;
+  word-spacing: 30px;
+}
+
+/* line 43, app/assets/stylesheets/products.scss */
+.main-heading h1 {
+  font-size: 5em;
+}
+
+/* line 52, app/assets/stylesheets/products.scss */
+.panel-heading {
+  background-color: !important;
+}
+
+/* line 57, app/assets/stylesheets/products.scss */
+.view {
+  font-size: 5em;
+}
+
+/* line 61, app/assets/stylesheets/products.scss */
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
+/* line 1, app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+
+/* line 24, app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+
+/* line 28, app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+
+/* line 58, app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+
+/* line 69, app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/* line 1, app/assets/stylesheets/show.scss */
+.description {
+  margin-right: 150px;
+}
+
+/* line 5, app/assets/stylesheets/show.scss */
+.name {
+  margin-right: 100px;
+}
+
+/* line 9, app/assets/stylesheets/show.scss */
+.image {
+  float: left;
+  margin-right: 350px;
+}
+/* line 5, app/assets/stylesheets/static_pages.scss */
+h1 {
+  font-size: 2em;
+  text-align: center;
+  font-family: Ariel;
+  color: red;
+}
+
+/* line 12, app/assets/stylesheets/static_pages.scss */
+h2, h3 {
+  color: blue;
+}
+
+/* line 17, app/assets/stylesheets/static_pages.scss */
+.carousel-caption {
+  margin-bottom: 3%;
+}
+
+/* line 21, app/assets/stylesheets/static_pages.scss */
+.btn btn-default {
+  color: blue;
+}
+
+/* line 25, app/assets/stylesheets/static_pages.scss */
+iv.c-wrapper {
+  width: 80%;
+  margin: auto;
+}
+
+/* line 29, app/assets/stylesheets/static_pages.scss */
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 60%;
+  margin: auto;
+}
+/* line 4, app/assets/stylesheets/users.scss */
+.name {
+  text-decoration-line: underline;
+  text-align: center;
+  font-size: 275%;
+  color: blue;
+}
+
+/* line 11, app/assets/stylesheets/users.scss */
+.image {
+  text-align: center;
+  margin-top: 2%;
+}
+
+/* line 16, app/assets/stylesheets/users.scss */
+.describe {
+  font-size: 120%;
+  font-weight: 100;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+
+
+footer {
+    margin:90px;
+}
+
+li {
+  float:right; 
+  font-size:1.25em;
+  
+}
+
+.glyphicon-log-in {
+  font-size:1.3em;
+}
+
+.glyphicon-user {
+  font-size:1.3em;
+}
+
+.navbar-nav{
+ padding-top:1em;
+ color:blue;
+}
+
+.navbar-default {
+  background-color:rgb(255, 165, 0);
+}
+
+.nav navbar {
+  color:red;
+}
+
+
+
+
+
+
+
+
