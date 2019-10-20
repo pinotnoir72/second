@@ -2,8 +2,15 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.panel-primary {
+  border-color:white;
+}
 
-
+img {
+  border-color: black;
+  border-style: solid;
+  
+}
 
 td {
   padding-right:30px;    
@@ -59,6 +66,6 @@ th {
 }
 
 .img-responsive {
-   width: 100%;
-    height: auto;
+  width: 50%;
+  height: auto;
 }
