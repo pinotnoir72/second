@@ -3,6 +3,7 @@
 <h1>Bike Orders</h1>
 
 <div class="container">
+  <% if signed_in? && current_user.admin? %>
   <% @orders.each do |order| %>
   <table class="table table-bordered table-hover">
     
@@ -16,5 +17,6 @@
     </tbody>
      <% end %>
   </table>
+  <% end %>
 </div>
 
