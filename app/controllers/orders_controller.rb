@@ -1,11 +1,13 @@
 class OrdersController < ApplicationController
    before_filter :authenticate_user! 
-   load_and_authorize_resource
+   
   
   def index
+      @orders = Order.includes(:product).all
   end
 
   def show
+      @order = Order.find(params[:id])
   end
 
   def new

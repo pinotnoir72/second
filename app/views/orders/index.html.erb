@@ -1,0 +1,20 @@
+
+
+<h1>Bike Orders</h1>
+
+<div class="container">
+  <% @orders.each do |order| %>
+  <table class="table table-bordered table-hover">
+    
+    <tbody>
+      <tr>
+        <th> Order # <%= order.id %></th>
+        <td><%= link_to order.product.name, order %></td>
+        <td><%= order.product.description %></td>
+        <td><strong>$ <%= order.product.price %></strong></td>
+      </tr>
+    </tbody>
+     <% end %>
+  </table>
+</div>
+

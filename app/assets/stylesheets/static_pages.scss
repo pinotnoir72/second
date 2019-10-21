@@ -2,33 +2,38 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+
+
+//=============================
+//Landing page styling
+//============================
+
+
+
 h1 {
-  font-size:2em;
-  text-align:center;
-  font-family:Ariel;
-  color:red;
+  
 }
 
 h2,h3 {
-  color:blue;
+  color:gray;
 }
 
 
 .carousel-caption {
-  margin-bottom: 3%;
+  text-align:right;
+  margin-bottom: 305px;
 }
 
 .btn btn-default {
-  color:blue;
+  
 }
 
-iv.c-wrapper { width:80%; 
-margin: auto; 
+.iv.c-wrapper { width:40%; 
+  margin: auto; 
 } 
 
-.carousel-inner > .item > img, .carousel-inner > .item > a > img { width: 60%; 
-margin: auto; 
+carousel-inner > .item > img, .carousel-inner > .item > a > img { width: 80%; 
+  
 }
-
 
 

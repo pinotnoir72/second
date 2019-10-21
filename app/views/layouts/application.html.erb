@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
+    
   <title>Bike A Rama </title>
   
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => 'reload'%>
-  
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
-  
- 
-  
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => 'reload'%>
+   <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+   <%= favicon_link_tag asset_path('favicon.ico') %>
+
   
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  
   <%= csrf_meta_tags %>
   <%= action_cable_meta_tag %>
+  
 </head>
 
 
@@ -41,8 +41,8 @@
     <form class="navbar-form navbar-left">
      
         <%= form_tag("/products", method: "get") do %>
-        <%= text_field_tag(:q, "Search",class: "form-control") %>
-        <%= submit_tag("Submit",  class: "btn btn-default btn-primary btn-md") %>
+        <%= text_field_tag(:q, "",class: "form-control") %>
+        <%= submit_tag("Search",  class: "btn btn-default btn-primary btn-md") %>
          <% end %>
         
     <ul class="nav pull-right">
@@ -75,7 +75,8 @@
       <div class = "nav-copy">
         <p> &copy; 2019 Bike A Rama ETC</p> 
       </div>
-    </div>  
+    </div> 
+    
   </nav>
 </footer>
 

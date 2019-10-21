@@ -12,9 +12,9 @@
      
      <div class="panel-body">
        <div id ="links">
-        <%= link_to 'Show', product  %>
-        <%= link_to 'Edit', edit_product_path(product ) %>
-        <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' }  %>
+        <%= link_to 'Details', product  %>
+        <%= link_to 'Edit', edit_product_path(product )if admin?  %>
+        <%= link_to 'Destroy', product, method: :delete, data: { confirm: 'Are you sure?' } if admin? %>
        </div><!--end links-->
      </div><!--end panel-body--> 
   

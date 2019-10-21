@@ -1,0 +1,30 @@
+
+<h1>Bike Orders</h1>
+
+<div class="container">
+  <table class="table table-bordered table-hover">
+    <thead>
+      <tr>
+        <th> Order ID </th>
+        <th> Product Name </th>
+        <th> Product Price </th>
+        <th> Total Price </th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr>
+        <td><%= @order.id %></td>
+        <td><%= @order.product.name %></td>
+        <td><%= number_to_currency(@order.product.price) %></td>
+        <td><%= number_to_currency(@order.total) %> </td>
+      </tr>
+    </tbody>
+  </table>
+  
+</div>
+
+
+  
+
+
