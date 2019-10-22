@@ -5,16 +5,15 @@
   <div class="row" data-product-id="<%= @product.id %>">
     <div class="col-md-12 col-md-offset-0">
       <p><%= link_to 'Return', products_path %></p>
-      <div class="image">
+      
+      <div class="my-image">
         
           <h3><%= @product.name %></h3>
             <p><%= image_tag(@product.image_url, class: "img-zoom", data_zoom_image: "@product.image_url") %></p>
               
-       
-                
       </div><!--end image-->
         
-    
+    <div class="all">
       <div class="describe">
         <strong>Description:</strong>
           <p><%= @product.description %></p>
@@ -44,7 +43,7 @@
           <%= render partial: "shared/stripe_checkout_button" %>
         <% end %>
     
-  
+  </div>
        
     </div><!--end row--> 
 </div><!--end container-->   

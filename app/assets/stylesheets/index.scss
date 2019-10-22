@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: asset-url('jumbo5.jpg');
+    background-image: asset-url('home/jumbo5.jpg');
     height: 400px;
     background-position: center;
     background-repeat: no-repeat;
@@ -29,3 +29,10 @@
 .btn-success {
     color:#fff!important;
 }
+
+.image {
+    width:90%;
+    Height:auto;
+    position: left;
+    float: left;
+}    
