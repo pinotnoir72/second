@@ -19,9 +19,8 @@ footer {
 }
 
 li {
-  float:right; 
+  float:left; 
   font-size:1.25em;
-  
 }
 
 .glyphicon-log-in {
@@ -42,13 +41,23 @@ li {
 }
 
 footer {
-  
   left: 0;
   bottom: 0;
   width: 100px;
   color: white;
   
 }
+
+.navbar-form {
+  float:left;
+}
+
+
+.btn {
+  height:45%;
+  
+}
+
 
 
 

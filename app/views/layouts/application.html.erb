@@ -30,9 +30,7 @@
 <%= link_to image_tag('logo.png'), root_path %></a>
     </div>
   <ul class="nav navbar-nav">
-      <li class="active"><a 
-
-<%= link_to "Home", static_pages_index_path %></li>
+      <li class="active"><%= link_to "Home", static_pages_index_path %></li>
       <li><%= link_to "About", static_pages_about_path %></li>
       <li><%= link_to "Contact", static_pages_contact_path %></li>
       <li><%= link_to("Products", products_path) %></li>
@@ -42,7 +40,7 @@
      
         <%= form_tag("/products", method: "get") do %>
         <%= text_field_tag(:q, "",class: "form-control") %>
-        <%= submit_tag("Search",  class: "btn btn-default btn-primary btn-md") %>
+        <%= submit_tag("Search",  class: "btn btn-default btn-primary btn-sm") %>
          <% end %>
         
     <ul class="nav pull-right">
